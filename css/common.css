@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+/************************************************
+	common
+************************************************/
+
+
+*{margin:0; padding:0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {display: block;}
+html{height:100%;}
+body{height:100%;font-family:Arial, sans-serif; color:#333; font-size:12px; -webkit-text-size-adjust:none;}
+input, textarea, select{font-family:Arial, sans-serif; color:#333; font-size:12px;}
+input[type=text], input[type=password], input[number]{padding:0 4px;box-sizing:border-box;}
+input[type=submit],input[type=image],input[type=button]{cursor:pointer;}
+button{font-family:Arial, sans-serif;border:none;color:#444;cursor:pointer;}
+ol, ul, li{list-style:none;}
+img, iframe, fieldset{border:none;}
+h1, h2, h3, h4, h5, h6{font-size:1.0em;}
+em, i, address{font-style:normal;}
+table, tr, td{ border-collapse:collapse;}
+table{width:100%;}
+caption, legend, .hide {text-indent:-5555px; width:0; height:0; visibility:hidden; font-size:0; line-height:0; position:absolute; top:-5555px; left:-5555px;}/* For Screen Reader */ 
+pre{margin:0;padding:0;white-space: pre-wrap;word-wrap: break-word;font-family:Arial, sans-serif;}
+
+a{color:#444; text-decoration:none;}
+
+img{max-width:100%;}
+
+
+
+/********** class ***************/
+#divAccessibility{
+	display:block;
+	height:0;
+	overflow:hidden;
+	position:absolute;
+	top:-5000px;
+}
+.blind{display:block;overflow:hidden;top:-1000em;position:absolute;}
+
+
+/************ color *****************/
+.c_red{color:#db2a24 !important;}
+
+/************ table_style *****************/
+
+
+/************ paging *****************/
+.paging{margin-top:20px;height:30px;border:1px solid #ccc;}
