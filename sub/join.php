@@ -3,7 +3,6 @@
         <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.min.css"/>
         <? include "../inc/jquery_load.php"; ?>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="../lib/monthpicker/js/jquery.mtz.monthpicker.js"></script>
         <style type="text/css">
             .ui-datepicker-calendar { display: none; }
             /*.ui-datepicker-month { display: none; }*/
