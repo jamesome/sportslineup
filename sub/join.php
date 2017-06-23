@@ -1,6 +1,16 @@
 <? include "../inc/head_set.php"; ?>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.min.css"/>
         <? include "../inc/jquery_load.php"; ?>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <style type="text/css">
+            .ui-datepicker-calendar { display: none; }
+            .ui-datepicker-month { display: none; }
+            .ui-datepicker-prev.ui-corner-all{ display: none; }
+            .ui-datepicker-next.ui-corner-all{ display: none; }
+            .ui-datepicker{ font-size: 12px; width: 120px; }
+            .ui-datepicker select.ui-datepicker-year{ width:90%; font-size: 13px; }
+        </style>
     </head>
     <body>
         <div id="wrapper" class="join">
@@ -73,5 +83,6 @@
             </div>
         </div>
         <script type="text/javascript" scr="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
+        <script type="text/javascript" src="../js/join.js"></script>
     </body>
 </html>
