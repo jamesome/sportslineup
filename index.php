@@ -35,11 +35,11 @@
                                 <img src="images/testimg.png" alt="" />
                                 <div class="content">
                                     <h3>25 amazing sports photos<span>Auguest 14, 2017</span></h3>
-                                    <p>Formula E: Buemi wins in Berlin as Rosenqvist pays the penalty..</p>
+                                    <p>Formula E: Buemi wins in Berlin</p>
                                     <a href="#">Read more ▶</a>
                                 </div>
                             </li>
-                            <li>
+                            <li class="last">
                                 <img src="images/testimg.png" alt="" />
                                 <div class="content">
                                     <h3>25 amazing sports photos<span>Auguest 14, 2017</span></h3>
@@ -52,12 +52,12 @@
 
                     <div class="main_news_tab">
                         <ul id="news_tab_navi">
-                            <li><a href="#all"></a></li>
-                            <li><a href="#soccer"></a></li>
-                            <li><a href="#baseball"></a></li>
-                            <li><a href="#basketball"></a></li>
-                            <li><a href="#volleyball"></a></li>
-                            <li><a href="#hockey"></a></li>
+                            <li><a href="#all" class="on">All</a></li>
+                            <li><a href="#soccer">Soccer</a></li>
+                            <li><a href="#baseball">Baseball</a></li>
+                            <li><a href="#basketball">Basketball</a></li>
+                            <li><a href="#volleyball">Volleyball</a></li>
+                            <li><a href="#hockey">Hockey</a></li>
                         </ul>
 
                         <div id="all" class="news_tab_con">
@@ -66,7 +66,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pu To say Christian Pulisic is US soing of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Soccer</strong>
                                             <span class="bar"></span>
@@ -78,7 +78,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Soccer</strong>
                                             <span class="bar"></span>
@@ -90,7 +90,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Soccer</strong>
                                             <span class="bar"></span>
@@ -107,7 +107,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Soccer</strong>
                                             <span class="bar"></span>
@@ -119,7 +119,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Soccer</strong>
                                             <span class="bar"></span>
@@ -131,7 +131,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Soccer</strong>
                                             <span class="bar"></span>
@@ -148,7 +148,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Baseball</strong>
                                             <span class="bar"></span>
@@ -160,7 +160,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Baseball</strong>
                                             <span class="bar"></span>
@@ -172,7 +172,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Baseball</strong>
                                             <span class="bar"></span>
@@ -189,7 +189,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Basketball</strong>
                                             <span class="bar"></span>
@@ -201,7 +201,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Basketball</strong>
                                             <span class="bar"></span>
@@ -213,7 +213,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Basketball</strong>
                                             <span class="bar"></span>
@@ -230,7 +230,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Volleyball</strong>
                                             <span class="bar"></span>
@@ -242,7 +242,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Volleyball</strong>
                                             <span class="bar"></span>
@@ -254,7 +254,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Volleyball</strong>
                                             <span class="bar"></span>
@@ -271,7 +271,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Hockey</strong>
                                             <span class="bar"></span>
@@ -283,7 +283,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Hockey</strong>
                                             <span class="bar"></span>
@@ -295,7 +295,7 @@
                                     <img src="images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is... </p>
+                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
                                         <div>
                                             <strong class="c_red category">Hockey</strong>
                                             <span class="bar"></span>
@@ -308,4 +308,18 @@
                     </div>
                 </div><!-- /container -->
             </div><!-- /container_wrap -->
+            <script>
+                var $tab_navi = $('#news_tab_navi').find('a'),
+                    $news_tab_con = $('.news_tab_con');
+
+                $tab_navi.click(function(){
+                    $tab_navi.removeClass('on');
+                    $news_tab_con.hide();
+
+                    $(this).addClass('on');
+                    $($(this).attr('href')).show();
+
+                    return false;
+                });
+            </script>
             <? include "inc/footer.php"; ?>
