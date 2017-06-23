@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
+
         <? include "inc/head_set.php"; ?>
     </head>
     <body>
@@ -8,7 +6,7 @@
 
             <div id="container_wrap">
                 <? include "inc/side_con.php"; ?>
-                 
+
                 <div id="container" class="main">
                     <div class="main_top_news"><a href="sub/view.php">
                         <img src="/images/main_news.png" alt="" />

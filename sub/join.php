@@ -1,7 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <? include "../inc/head_set.php"; ?>
+<? include "../inc/head_set.php"; ?>
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.min.css"/>
+        <? include "../inc/jquery_load.php"; ?>
     </head>
     <body>
         <div id="wrapper" class="join">
@@ -54,8 +53,8 @@
                     <li class="right">
                         <label><strong>Explration Date</strong></label>
                         <p class="select_box">
-                            <input type="text" placeholder="Month" class="input" />
-                            <input type="text" placeholder="Year" class="input" />
+                            <input type="text" id="set_month" placeholder="Month" class="input" />
+                            <input type="text" id="set_year" placeholder="Year" class="input" />
                         </p>
                     </li>
                     <li>
@@ -73,5 +72,6 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript" scr="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
     </body>
 </html>

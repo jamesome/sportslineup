@@ -69,6 +69,5 @@
                 <p class="copyright">&copy; 2017 Cable News Network. Turner Broadcasting System, Inc. All Rights Reserved.</p>
             </div><!-- /main_footer-->
         </div>
-        <script type="text/javascript" scr="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
     </body>
 </html>
