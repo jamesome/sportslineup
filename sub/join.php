@@ -14,7 +14,7 @@
             <div id="join_content">
                 <h2><img src="/images/join_title.png" alt="Create an account." /></h2>
 
-                <ul>
+                <ul class="input_list">
                     <li class="w100">
                         <label for="join_id"><strong>ID</strong><span>*</span></label>
                         <input type="text" class="input style1" id="join_id" />
