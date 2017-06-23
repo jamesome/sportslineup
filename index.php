@@ -1,8 +1,7 @@
-
-        <? include "inc/head_set.php"; ?>
+<? include "inc/head_set.php"; ?>
     </head>
     <body>
-            <? include "inc/header.php"; ?>
+<? include "inc/header.php"; ?>
 
             <div id="container_wrap">
                 <? include "inc/side_con.php"; ?>

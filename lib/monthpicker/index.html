@@ -1,0 +1,51 @@
+<html>
+<head><title>XAMPP</title>
+	<link href="./css/jquery-ui.css" rel="stylesheet" type="text/css">
+	<style>
+		#monthpicker {
+			width: 60px;
+		}
+		#btn_monthpicker {
+			background: url('./datepicker.png');
+			border: 0;
+			height: 24px;
+			overflow: hieen;
+			text-indent: 999;
+			width: 24px;
+		}
+	</style>
+</head>
+
+<body>
+	<input id="monthpicker" type="text" />
+	<input type="button" id="btn_monthpicker" value="Month" />
+	
+	<script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.mtz.monthpicker.js"></script>
+	<script>
+		/* MonthPicker 옵션 */
+		options = {
+			pattern: 'yyyy-mm', // Default is 'mm/yyyy' and separator char is not mandatory
+			selectedYear: 2014,
+			startYear: 2008,
+			finalYear: 2018,
+			monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월']
+		};
+		
+		/* MonthPicker Set */
+		$('#monthpicker').monthpicker(options);
+		
+		/* 버튼 클릭시 MonthPicker Show */
+		$('#btn_monthpicker').bind('click', function () {
+			$('#monthpicker').monthpicker('show');
+		});
+		
+		/* MonthPicker 선택 이벤트 */
+		$('#monthpicker').monthpicker().bind('monthpicker-click-month', function (e, month) {
+			alert("선택하신 월은 : " + month + "월");
+		});
+	</script>
+</body>
+</html>
+	
