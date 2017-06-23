@@ -9,7 +9,7 @@
                         <li><a href="#">aahera</a></li>
                         <li><a href="#">aaherarbxvbxfbs</a></li>
                         <li><a href="#">aaherarbxvbxfbs</a></li>
-                        <li class="last"><a href="#">aaherarbxvbxfbs</a></li>
+                        <li class="last"><a href="/sub/contactus.php">Contact us</a></li>
                     </ul>
                 </div>
             </div><!-- /main_header -->
