@@ -10,7 +10,7 @@
                 <? include "../inc/side_con.php"; ?>
                  
                 <div id="container">
-                    <div class="view">
+                    <div id="main_con" class="view">
                         <div class="view_top">
                             <h2>The teen with the future of US soccer on his shoulders hello sportslineup.</h2>
                             <p>Updated 1603 GMT (0003 HKT) June 15, 2017</p>

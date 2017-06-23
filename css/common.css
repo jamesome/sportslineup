@@ -11,7 +11,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 html{height:100%;}
 body{height:100%;font-family:Arial, sans-serif; color:#333; font-size:15px; -webkit-text-size-adjust:none;}
 input, textarea, select{font-family:Arial, sans-serif; color:#333; font-size:15px;}
-input[type=text], input[type=password], input[number]{padding:0 4px;box-sizing:border-box;}
+input[type=text], input[type=password], input[number]{padding:0 15px;border:none;box-sizing:border-box;}
 input[type=submit],input[type=image],input[type=button]{cursor:pointer;}
 button{font-family:Arial, sans-serif;border:none;color:#444;cursor:pointer;font-size:15px;}
 ol, ul, li{list-style:none;}
@@ -43,8 +43,9 @@ img{max-width:100%;}
 /************ color *****************/
 .c_red{color:#db2a24 !important;}
 
-/************ table_style *****************/
-
+/************ input *****************/
+.input{height:45px;}
+.input.style1{width:100%;border:1px solid #d8d8d8;border-radius:5px;}
 
 /************ paging *****************/
 .paging{margin-top:20px;height:30px;border:1px solid #ccc;}

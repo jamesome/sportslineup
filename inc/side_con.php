@@ -6,7 +6,7 @@
                             <p><input type="text" placeholder="ID" /></p>
                             <p><input type="password" placeholder="Password" /></p>
                         </div>
-                        <a href="#" class="sign_up"><img src="/images/signup.png" alt="Sign up" /></a>
+                        <a href="/sub/join.php" class="sign_up"><img src="/images/signup.png" alt="Sign up" /></a>
                         <button type="submit" id="login"><img src="/images/btn_login.png" alt="Create an account" /></button>
                     </div>
                     <div id="game_zone">
