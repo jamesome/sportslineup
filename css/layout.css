@@ -6,7 +6,7 @@
 /************************************************
 	layout
 ************************************************/
-#wrapper{position:relative;min-height:100%;background:#eeeeee;}
+#wrapper{position:relative;min-width:1080px;min-height:100%;background:#eeeeee;}
 
 /*======== 고정영역 레이아웃 ============*/
 /* 헤더영역 */
@@ -14,33 +14,70 @@
 #main_header .logo{padding:24px 0 29px;text-align:center;}
 #gnb{border-top:1px solid #eeeeee;}
 #gnb ul{overflow:hidden;width:1080px;margin:0 auto;}
-#gnb ul li{float:left;padding:20px 0;margin-right:60px;}
+#gnb ul li{float:left;padding:20px 0;margin-right:72px;}
 #gnb ul li.last{margin-right:0;}
 #gnb ul li a{font-size:16px;}
 #gnb ul li.on a, #gnb ul li a:hover{color:#c3251d;}
 
 /* 컨텐츠 영역 */
 #container_wrap{overflow:hidden;width:1080px;margin:0 auto;padding:40px 0;}
+#side_con{float:right;width:340px;}
+#container{float:left;width:720px;}
+
+/* 사이드  영역 */
+#login_box{height:358px;padding:42px 30px 0;background:#333333;margin-bottom:30px;}
+#login_box img{display:block;}
+#login_box > p{margin:29px 0 22px;}
+#login_box .login_input p{margin-bottom:15px;}
+#login_box .login_input input{width:100%;height:52px;border:none;padding:0 15px;box-sizing:border-box;}
+#login_box a{display:inline-block;margin:7px 0 18px;}
+
+#game_zone{height:510px;margin-bottom:30px;background:#ccc;}
+#right_banner{text-align:center;}
 
 /* 푸터 영역 */
+#main_footer{min-width:1080px;background:#454545;}
+#main_footer .sitemap{overflow:hidden;width:1080px;margin:0 auto;padding:45px 0 65px;}
+#main_footer .sitemap li{float:left;margin-right:100px;}
+#main_footer .sitemap li dt a{color:#fff;font-size:22px;}
+#main_footer .sitemap li dd{margin-top:15px;}
+#main_footer .sitemap li dd a{color:#ccc;font-size:14px;}
+#main_footer .sitemap li dd a:hover{color:#fff;}
+#main_footer .sitemap li.last{margin-right:0;}
+#main_footer .copyright{padding:27px 0;font-size:14px;background:#333333;color:#cccccc;text-align:center;}
 
+/*======== index ============*/
+.main_top_news{position:relative;height:400px;}
+.main_top_news > img{width:100%;height:400px;}
+.main_top_news .main_news_over{overflow:hidden;position:absolute;left:0;bottom:0;width:100%;padding:23px 30px 23px 17px;color:#fff;background:url(../images/main_news_bg.png);box-sizing:border-box;}
+.main_top_news .main_news_over p{float:left;width:590px;font-size:28px;font-weight:600;}
+.main_top_news .main_news_over img{float:right;width:60px;height:60px;}
 
+.main .main_news{margin:30px 0;}
+.main .main_news ul{overflow:hidden;}
+.main .main_news ul li{float:left;width:225px;margin-right:22px;}
+.main .main_news ul li.last{margin-right:0;}
+.main .main_news ul li img{display:block;width:100%;height:180px;}
+.main .main_news ul li .content{position:relative;height:175px;padding:0 10px;background:#fff;}
+.main .main_news ul li h3{padding:20px 0 26px;font-size:16px;}
+.main .main_news ul li h3 span{display:block;font-size:14px;color:#999999;margin-top:5px;}
+.main .main_news ul li p{font-size:14px;color:#999999;padding-bottom:45px;}
+.main .main_news a{position:absolute;bottom:20px;left:10px;color:#db2a24;font-weight:600;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#news_tab_navi{overflow:hidden;margin-bottom:30px;border-bottom:5px solid #c3251d;}
+#news_tab_navi li{float:left;}
+#news_tab_navi li a{display:block;padding:13px 20px 10px;font-weight:600;font-size:16px;border-radius:5px 5px 0 0;}
+#news_tab_navi li:first-child a{padding:13px 35px 10px;}
+#news_tab_navi li a.on, #news_tab_navi li a:hover{background:#c3251d;color:#fff;}
+.main_news_tab .news_tab_con{display:none;}
+.main_news_tab .news_tab_con#all{display:block;}
+.main_news_tab .news_tab_con li{overflow:hidden;height:180px;margin-bottom:30px;}
+.main_news_tab .news_tab_con li img{float:left;display:block;width:225px;height:180px;}
+.main_news_tab .news_tab_con li .content{float:left;width:450px;height:180px;padding:0 20px 0 25px;background:#fff;}
+.main_news_tab .news_tab_con li .content h3{padding:25px 0 15px;font-size:22px;}
+.main_news_tab .news_tab_con li .content p{height:50px;color:#999999;}
+.main_news_tab .news_tab_con li .content div{margin:20px 0 25px;font-size:16px;color:#999999;}
+.main_news_tab .news_tab_con li .content div .bar{display:inline-block;width:1px;height:10px;margin:0 11px 0 15px;background:#ccc;}
 
 
 

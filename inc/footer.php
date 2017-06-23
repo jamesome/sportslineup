@@ -52,7 +52,7 @@
                             <dd><a href="#">Startups</a></dd>
                         </dl>
                     </li>
-                    <li>
+                    <li class="last">
                         <dl>
                             <dt><a href="#">Sport</a></dt>
                             <dd><a href="#">Football</a></dd>
