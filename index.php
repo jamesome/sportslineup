@@ -1,4 +1,5 @@
 <? include "inc/head_set.php"; ?>
+        <? include "inc/jquery_load.php"; ?>
     </head>
     <body>
 <? include "inc/header.php"; ?>
