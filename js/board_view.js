@@ -4,10 +4,10 @@
     }
 
     context.board_view = {
-        get_board_view: function() {
+        get_board_view: function(b_idx) {
 
             $.post("/ajax/ajax_get_board_view.php", {
-
+                    'board_idx': ''
                 },
                 function(data) {
                     if (data) {

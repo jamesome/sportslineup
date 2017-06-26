@@ -1,11 +1,13 @@
 (function(context) {
 
-    if (context.sign_in) {
+    if (context.signIn) {
         return;
     }
 
-    context.sign_in = {
+    context.signIn = {
         login: function() {
+            $("#login").off('click');
+
             var login_id = $('#login_id').val();
             var login_pw = $('#login_pw').val();
             var retn = true;
@@ -20,7 +22,7 @@
             }
 
             if (!retn) {
-                $("#login").on('click', sign_in.login);
+                $("#login").on('click', signIn.login);
                 return false;
             }
 
@@ -38,12 +40,11 @@
                     }
                 });
         }
-
     };
 })(window);
 
 $(function() {
     $('#login').click(function() {
-        sign_in.login();
+        signIn.login();
     });
 });

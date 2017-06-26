@@ -7,14 +7,15 @@
     context.common = {
         /**
          * https://limonte.github.io/sweetalert2/
-         * img:: error, success, question, info
+         * type:: error, success, question, info, warning
          */
-        commmon_alert: function(title, content, img) {
-            swal(
+        commmon_alert: function(title, text, type) {
+            swal({
                 title,
-                content,
-                img
-            )
+                text,
+                type,
+                confirmButtonColor: '#d33'
+            })
         },
         get_parameter: function(param) {
             var returnValue, varName,

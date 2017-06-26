@@ -1,17 +1,5 @@
 <? include "../inc/head_set.php"; ?>
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.min.css"/>
         <? include "../inc/jquery_load.php"; ?>
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-        <style type="text/css">
-            .ui-datepicker-calendar { display: none; }
-            /*.ui-datepicker-month { display: none; }*/
-            .ui-datepicker-prev.ui-corner-all{ display: none; }
-            .ui-datepicker-next.ui-corner-all{ display: none; }
-            /*.ui-datepicker{ font-size: 12px; width: 120px; }
-            .ui-datepicker select.ui-datepicker-year{ width:90%; font-size: 13px; }
-            .ui-datepicker table{ display: none; }*/
-        </style>
     </head>
     <body>
         <div id="wrapper" class="join">
@@ -23,7 +11,7 @@
             </div>
 
             <div id="join_content">
-                <h2><img src="/images/join_title.png" alt="Create an account." /></h2>
+                <h2><img src="/images/join_title.png" alt="Create an account" /></h2>
 
                 <ul class="input_list">
                     <li class="w100">
@@ -32,28 +20,28 @@
                     </li>
                     <li class="w100">
                         <label for="join_pass1"><strong>Password</strong><span>*</span></label>
-                        <input type="text" class="input style1" id="join_pass1" />
+                        <input type="password" class="input style1" id="join_pass1" />
                     </li>
                     <li class="w100">
                         <label for="join_pass2"><strong>Password confirmation</strong><span>*</span></label>
-                        <input type="text" class="input style1" id="join_pass2" />
+                        <input type="password" class="input style1" id="join_pass2" />
                     </li>
                     <li>
                         <label><strong>Mobile Number</strong><span>*</span></label>
                         <p class="input_box">
                             <select>
-                                <option>+89</option>
-                                <option>+89</option>
-                                <option>+89</option>
+                                <option value="87">+87</option>
+                                <option value="88">+88</option>
+                                <option value="89">+89</option>
                             </select>
-                            <input type="text" class="input" style="width:172px;" />
+                            <input type="text" class="input join_mobile" style="width:172px;" />
                             <button type="button" class="box_btn">Verify</button>
                         </p>
                     </li>
                     <li class="right">
                         <label><strong>Verification Code</strong><span>*</span></label>
                         <p class="input_box">
-                            <input type="text" class="input" style="width:239px;" />
+                            <input type="text" class="input verification_code" style="width:239px;" />
                             <button type="button" class="box_btn">Confirm</button>
                         </p>
                     </li>
@@ -79,11 +67,11 @@
                 </ul>
 
                 <div class="btns">
-                    <button type="submit" class="btn"><img src="/images/btn_join.png" alt="Create an account" /></button>
+                    <button type="button" id="sign_up" class="btn"><img src="/images/btn_join.png" alt="Create an account" /></button>
                 </div>
             </div>
         </div>
-        <script type="text/javascript" scr="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
-        <script type="text/javascript" src="../js/sign_up.js"></script>
+<? include "../inc/commonJsFile.php"; ?>
+        <script type="text/javascript" src="../js/signUp.js"></script>
     </body>
 </html>
