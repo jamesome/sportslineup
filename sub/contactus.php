@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <? include "../inc/head_set.php"; ?>
+<? include "../inc/head_set.php"; ?>
     </head>
     <body>
-            <? include "../inc/header.php"; ?>
+<? include "../inc/header.php"; ?>
 
             <div id="container_wrap">
-                <? include "../inc/side_con.php"; ?>
-                 
+<? include "../inc/side_con.php"; ?>
+
                 <div id="container">
                     <div id="main_con" class="contact">
                         <div class="sub_tit">
@@ -36,4 +33,7 @@
                     </div>
                 </div><!-- /container -->
             </div><!-- /container_wrap -->
-            <? include "../inc/footer.php"; ?>
+<? include "../inc/footer.php"; ?>
+        </div>
+    </body>
+</html>

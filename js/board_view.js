@@ -1,25 +1,49 @@
 (function(context) {
-	if (context.board_view) {
-		return;
-	}
+    if (context.board_view) {
+        return;
+    }
 
-	context.board_view = {
-		/**
-		 * 뉴스 뷰 가져오기
-		 */
-		get_board_view: function() {
+    context.board_view = {
+        get_board_view: function(b_idx) {
 
-			$.post("/ajax/Ajax_news/get_board_view_ajax", {
+            $.post("/ajax/ajax_get_board_view.php", {
+                    'board_idx': ''
+                },
+                function(data) {
+                    if (data) {
+                        $(".board_view .view").detach();
+                        board_view.set_board_view(data);
+                    }
+                }, 'json'
+            );
+        },
+        set_board_view: function(data) {
+            if (data['is_delete'] == 'Y') {
+                common.commmon_alert('Deleted', '', 'info');
+            }
 
-				},
-				function(data) {
-					if (data) {
-						$(".admin_rank_list tbody tr").detach();
-						this.set_board_view(data);
-					}
-				}, 'json'
-			);
-		},
+            var item = '';
 
-	};
+            item += '<div id="main_con" class="view">';
+            item += '	<div class="view_top">';
+            item += '		<h2>' + data + '</h2>';
+            item += '		<p>' + data + '</p>';
+            item += '	</div>';
+            item += '	<div class="view_content">';
+            item += '		<div class="con_img">';
+            item += '			<img src="/images/main_news.png" alt="" />';
+            item += '		</div>';
+            item += '		<div class="con_txt">' + data + '</div>';
+            item += '	</div>';
+            item += '	<p class="writer">' + data + '<span class="c_red">' + data + '</span></p>';
+            item += '</div>';
+
+            $(".board_view").append(item);
+        }
+
+    };
 })(window);
+
+$(function() {
+    board_view.get_board_view();
+});
