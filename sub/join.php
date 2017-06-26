@@ -52,8 +52,29 @@
                     <li class="right">
                         <label><strong>Explration Date</strong></label>
                         <p class="select_box">
-                            <input type="text" id="set_month" placeholder="Month" class="input" />
-                            <input type="text" id="set_year" placeholder="Year" class="input" />
+                            <select id="set_month">
+                                <option value="" selected="selected">Month</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <select id="set_year">
+                                <option value="" selected="selected">Year</option>
+                                <option value="2017">2017</option>
+                                <option value="2015">2015</option>
+                                <option value="1988">1988</option>
+                                <option value="1980">1980</option>
+                                <option value="1979">1979</option>
+                            </select>
                         </p>
                     </li>
                     <li>

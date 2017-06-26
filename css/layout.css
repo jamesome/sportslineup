@@ -114,12 +114,12 @@
 .input_list li label strong{float:left;margin-top:3px;}
 .input_list li label span{float:left;color:#f00;font-weight:600;margin-left:1px;}
 .input_list li .input_box{overflow:hidden;border:1px solid #d8d8d8;border-radius:5px;background:#fff;}
-.input_list li .input_box select{float:left;width:64px;height:43px;line-height:43px;padding:0 10px;font-size:13px;border:none;border-right:1px solid #d8d8d8;-webkit-appearance:none;background:url(../images/select1.png) right center no-repeat #f4f4f4;box-sizing:border-box;}
+.input_list li .input_box select{float:left;width:64px;height:45px;line-height:45px;padding:0 5px 10px;font-size:13px;border:none;border-right:1px solid #d8d8d8;background:url(../images/select1.png) right center no-repeat #f4f4f4;box-sizing:border-box;}
 .input_list li .input_box input{float:left;}
 .input_list li .input_box .box_btn{float:left;display:block;width:68px;height:25px;line-height:25px;margin-top:10px;font-size:13px;text-align:center;border:1px solid #d8d8d8;background:#eeeeee;}
 .input_list li .select_box{overflow:hidden;}
-.input_list li .select_box input{float:right;width:145px;border:1px solid #d8d8d8;border-radius:5px;background:url(../images/select2.png) right center no-repeat #f4f4f4;}
-.input_list li .select_box input:first-child{float:left;width:165px;}
+.input_list li .select_box select{float:right;width:145px;height:45px;padding:0 5px 0 15px;border:1px solid #d8d8d8;border-radius:5px;-webkit-appearance:none;background:url(../images/select2.png) right center no-repeat #f4f4f4;box-sizing:border-box;}
+.input_list li .select_box select:first-child{float:left;width:165px;}
 .input_list li textarea{display:block;width:100%;height:170px;padding:10px 15px;border:1px solid #d8d8d8;border-radius:5px;box-sizing:border-box;}
 
 

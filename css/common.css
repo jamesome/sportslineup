@@ -26,7 +26,8 @@ pre{margin:0;padding:0;white-space: pre-wrap;word-wrap: break-word;font-family:A
 a{color:#444; text-decoration:none;}
 
 img{max-width:100%;}
-
+select{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+select::-ms-expand {display: none;}
 
 
 /********** class ***************/
