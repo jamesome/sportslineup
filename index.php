@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <? include "inc/head_set.php"; ?>
+<? include "inc/head_set.php"; ?>
+        <? include "inc/jquery_load.php"; ?>
     </head>
     <body>
-            <? include "inc/header.php"; ?>
+<? include "inc/header.php"; ?>
 
             <div id="container_wrap">
                 <? include "inc/side_con.php"; ?>
-                 
+
                 <div id="container" class="main">
                     <div class="main_top_news"><a href="sub/view.php">
                         <img src="/images/main_news.png" alt="" />
