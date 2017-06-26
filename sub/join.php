@@ -84,6 +84,6 @@
             </div>
         </div>
         <script type="text/javascript" scr="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
-        <script type="text/javascript" src="../js/join.js"></script>
+        <script type="text/javascript" src="../js/sign_up.js"></script>
     </body>
 </html>

@@ -68,6 +68,3 @@
 
                 <p class="copyright">&copy; 2017 Cable News Network. Turner Broadcasting System, Inc. All Rights Reserved.</p>
             </div><!-- /main_footer-->
-        </div>
-    </body>
-</html>

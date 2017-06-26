@@ -316,4 +316,8 @@
                     return false;
                 });
             </script>
-            <? include "inc/footer.php"; ?>
+<? include "inc/footer.php"; ?>
+        </div>
+        <script type="text/javascript" src="../js/sign_in.js"></script>
+    </body>
+</html>
