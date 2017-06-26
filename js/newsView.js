@@ -1,23 +1,23 @@
 (function(context) {
-    if (context.boardView) {
+    if (context.newsView) {
         return;
     }
 
-    context.boardView = {
-        get_board_view: function(b_idx) {
+    context.newsView = {
+        get_news_view: function(b_idx) {
 
-            $.post("/ajax/ajax_get_board_view.php", {
+            $.post("/ajax/ajax_get_news_view.php", {
                     'board_idx': ''
                 },
                 function(data) {
                     if (data) {
                         $(".board_view .view").detach();
-                        boardView.set_board_view(data);
+                        newsView.set_news_view(data);
                     }
                 }, 'json'
             );
         },
-        set_board_view: function(data) {
+        set_news_view: function(data) {
             if (data['is_delete'] == 'Y') {
                 common.commmon_alert('Deleted', '', 'info');
             }
@@ -45,5 +45,5 @@
 })(window);
 
 $(function() {
-    boardView.get_board_view();
+    newsView.get_news_view();
 });

@@ -9,12 +9,14 @@
             var join_id = $('#join_id').val().trim();
             var join_pass1 = $('#join_pass1').val().trim();
             var join_pass2 = $('#join_pass2').val().trim();
+            var join_area = $('#set_area').val().trim();
             var join_mobile = $('.join_mobile').val().trim();
             var verification_code = $('.verification_code').val().trim();
             var set_month = $('#set_month').val().trim();
             var set_year = $('#set_year').val().trim();
             var join_fnc = $('#join_fnc').val().trim();
             var join_lnc = $('#join_lnc').val().trim();
+            var mobile = join_area + join_mobile;
             var retn = true;
 
             if (retn && join_id == '') {
@@ -63,25 +65,30 @@
                 return false;
             }
 
-            $.post("/ajax/ajax_set_join.php", {
-                    'join_id': join_id,
-                    'join_pw': join_pass1,
-                    'join_mobile': join_mobile,
-                    'verification_code': verification_code,
-                    'set_year': set_year,
-                    'set_month': set_month,
-                    'join_fnc': join_fnc,
-                    'join_lnc': join_lnc
-                },
-                function(data) {
-                    if (data == 'ok') {
-                        common.commmon_alert('Signed up', '', 'success');
-                    } else if (data == 'uid') {
-                        common.commmon_alert('Please Check your ID', '', 'warning');
-                    } else if (data == 'upass') {
-                        common.commmon_alert('Please Check your PW', '', 'warning');
-                    }
-                });
+            if (retn) {
+                common.commmon_alert('Oops..!', 'You can not sign up', 'error');
+                return false;
+            }
+
+            // $.post("/ajax/ajax_set_join.php", {
+            //         'join_id': join_id,
+            //         'join_pw': join_pass1,
+            //         'join_mobile': mobile,
+            //         'verification_code': verification_code,
+            //         'set_year': set_year,
+            //         'set_month': set_month,
+            //         'join_fnc': join_fnc,
+            //         'join_lnc': join_lnc
+            //     },
+            //     function(data) {
+            //         if (data == 'ok') {
+            //             common.commmon_alert('Signed up', '', 'success');
+            //         } else if (data == 'uid') {
+            //             common.commmon_alert('Please Check your ID', '', 'warning');
+            //         } else if (data == 'upass') {
+            //             common.commmon_alert('Please Check your PW', '', 'warning');
+            //         }
+            //     });
         },
         id_check: function() {
             var join_id = $('#join_id').val().trim();

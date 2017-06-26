@@ -56,30 +56,34 @@
 
                         <div id="all" class="news_tab_con">
                             <ul>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pu To say Christian Pulisic is US soing of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Soccer</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
+                                <li>
+                                    <a href="sub/view.php">
+                                        <img src="/images/testimg.png" alt="" />
+                                        <div class="content">
+                                            <h3>The teen with the future of US soccer on...</h3>
+                                            <p>To say Christian Pu To say Christian Pulisic is US soing of an understatement. To say Christian Puli... </p>
+                                            <div>
+                                                <strong class="c_red category">Soccer</strong>
+                                                <span class="bar"></span>
+                                                <span class="date">Auguest 14, 2017</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a></li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Soccer</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="sub/view.php">
+                                        <img src="/images/testimg.png" alt="" />
+                                        <div class="content">
+                                            <h3>The teen with the future of US soccer on...</h3>
+                                            <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
+                                            <div>
+                                                <strong class="c_red category">Soccer</strong>
+                                                <span class="bar"></span>
+                                                <span class="date">Auguest 14, 2017</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a></li>
+                                    </a>
+                                </li>
                                 <li><a href="sub/view.php">
                                     <img src="/images/testimg.png" alt="" />
                                     <div class="content">
@@ -96,7 +100,7 @@
                         </div><!-- /all -->
 
                         <div id="soccer" class="news_tab_con">
-                            <ul>
+                            <ul id="soccer">
                                 <li><a href="sub/view.php">
                                     <img src="/images/testimg.png" alt="" />
                                     <div class="content">
@@ -306,7 +310,7 @@
                 var $tab_navi = $('#news_tab_navi').find('a'),
                     $news_tab_con = $('.news_tab_con');
 
-                $tab_navi.click(function(){
+                $tab_navi.click(function() {
                     $tab_navi.removeClass('on');
                     $news_tab_con.hide();
 
@@ -320,5 +324,6 @@
         </div>
 <? include "inc/commonJsFile.php"; ?>
         <script type="text/javascript" src="../js/signIn.js"></script>
+        <script type="text/javascript" src="../js/main.js"></script>
     </body>
 </html>
