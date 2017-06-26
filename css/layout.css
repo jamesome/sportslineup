@@ -25,7 +25,7 @@
 #container{float:left;width:720px;}
 
 /* 사이드  영역 */
-#login_box{height:358px;padding:42px 30px 0;background:#333333;margin-bottom:30px;}
+#login_box{height:358px;padding:42px 30px 0;background:#333333;margin-bottom:30px;color:#fff;font-size:16px;}
 #login_box img{display:block;}
 #login_box > p{margin:29px 0 22px;}
 #login_box .login_input p{margin-bottom:15px;}
