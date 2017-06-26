@@ -24,7 +24,7 @@
                 return false;
             }
 
-            $.post("/ajax/ajax_set_user_login.php", {
+            $.post("/ajax/ajax_set_login.php", {
                     'userid': login_id,
                     'userpw': login_pw
                 },

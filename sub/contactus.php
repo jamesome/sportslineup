@@ -34,3 +34,6 @@
                 </div><!-- /container -->
             </div><!-- /container_wrap -->
 <? include "../inc/footer.php"; ?>
+        </div>
+    </body>
+</html>
