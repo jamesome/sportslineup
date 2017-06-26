@@ -38,23 +38,23 @@
                 retn = false;
             }
             if (retn && verification_code == '') {
-                common.commmon_alert('Please Check verification_code', '', 'warning');
+                common.commmon_alert('Oops..!', 'Please Check verification_code', 'warning');
                 retn = false;
             }
             if (retn && set_month == '') {
-                common.commmon_alert('Please Check Explration Date', '', 'warning');
+                common.commmon_alert('Oops..!', 'Please Check Explration Date', 'warning');
                 retn = false;
             }
             if (retn && set_year == '') {
-                common.commmon_alert('Please Check Explration Date', '', 'warning');
+                common.commmon_alert('Oops..!', 'Please Check Explration Date', 'warning');
                 retn = false;
             }
             if (retn && join_fnc == '') {
-                common.commmon_alert('Please Check your First Name', '', 'warning');
+                common.commmon_alert('Oops..!', 'Please Check your First Name', 'warning');
                 retn = false;
             }
             if (retn && join_lnc == '') {
-                common.commmon_alert('Please Check your Last Name', '', 'warning');
+                common.commmon_alert('Oops..!', 'Please Check your Last Name', 'warning');
                 retn = false;
             }
 
@@ -128,17 +128,16 @@
 
             if (!/^[a-zA-Z0-9\~\∙\!\@\#\$\%\^\&\*\(\)\_\-\+\=\{\}\[\]\|\\\;\:‘\“\<\>\,\.\?\/]{6,10}$/.test(join_pw)) {
                 //"비밀번호는 6~10자리를 사용해야 합니다."
-                msg = 'Please enter at least six characters.';
-                sub_msg = 'maximum of ten characters';
-                return common.commmon_alert(msg, sub_msg, 'warning');
+                msg = 'Please enter at least six characters.\n(maximum of ten characters)';
+                return common.commmon_alert('Oops..!', msg, 'warning');
             } else if (chk_num < 0 || chk_eng < 0) {
                 //"비밀번호는 숫자와 영문자를 혼용하여야 합니다."
                 msg = 'The password must be a combination of letters and numbers.';
-                return common.commmon_alert(msg, '', 'warning');
+                return common.commmon_alert('Oops..!', msg, 'warning');
             } else if (/(\w)\1\1\1/.test(join_pw)) {
                 //"비밀번호에 같은 문자를 4번 이상 사용하실 수 없습니다."
                 msg = 'You can not use the same character more than 4 times in your password.';
-                return common.commmon_alert(msg, '', 'warning');
+                return common.commmon_alert('Oops..!', msg, 'warning');
             } else {
                 msg = ' This PW is available.';
                 return common.commmon_alert('Good job!', msg, 'success');

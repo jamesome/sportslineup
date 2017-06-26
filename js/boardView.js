@@ -1,9 +1,9 @@
 (function(context) {
-    if (context.board_view) {
+    if (context.boardView) {
         return;
     }
 
-    context.board_view = {
+    context.boardView = {
         get_board_view: function(b_idx) {
 
             $.post("/ajax/ajax_get_board_view.php", {
@@ -12,7 +12,7 @@
                 function(data) {
                     if (data) {
                         $(".board_view .view").detach();
-                        board_view.set_board_view(data);
+                        boardView.set_board_view(data);
                     }
                 }, 'json'
             );
@@ -45,5 +45,5 @@
 })(window);
 
 $(function() {
-    board_view.get_board_view();
+    boardView.get_board_view();
 });

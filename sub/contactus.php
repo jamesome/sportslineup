@@ -1,4 +1,5 @@
 <? include "../inc/head_set.php"; ?>
+        <? include "../inc/jquery_load.php"; ?>
     </head>
     <body>
 <? include "../inc/header.php"; ?>
@@ -34,6 +35,7 @@
                 </div><!-- /container -->
             </div><!-- /container_wrap -->
 <? include "../inc/footer.php"; ?>
+<? include "../inc/commonJsFile.php"; ?>
         </div>
     </body>
 </html>
