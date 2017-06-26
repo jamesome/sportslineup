@@ -79,11 +79,12 @@
                 </ul>
 
                 <div class="btns">
-                    <button type="submit" class="btn"><img src="/images/btn_join.png" alt="Create an account" /></button>
+                    <button type="button" id="sign_up" class="btn" onClick="signUp.join();"><img src="/images/btn_join.png" alt="Create an account" /></button>
                 </div>
             </div>
         </div>
         <script type="text/javascript" scr="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.min.js"></script>
         <script type="text/javascript" src="../js/join.js"></script>
+        <script type="text/javascript" src="../js/sign_up.js"></script>
     </body>
 </html>
