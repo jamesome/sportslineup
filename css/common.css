@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6{font-size:1.0em;}
 em, i, address{font-style:normal;}
 table, tr, td{ border-collapse:collapse;}
 table{width:100%;}
-caption, legend, .hide {text-indent:-5555px; width:0; height:0; visibility:hidden; font-size:0; line-height:0; position:absolute; top:-5555px; left:-5555px;}/* For Screen Reader */ 
+caption, legend, .hide {text-indent:-5555px; width:0; height:0; visibility:hidden; font-size:0; line-height:0; position:absolute; top:-5555px; left:-5555px;}/* For Screen Reader */
 pre{margin:0;padding:0;white-space: pre-wrap;word-wrap: break-word;font-family:Arial, sans-serif;}
 
 a{color:#444; text-decoration:none;}
@@ -50,7 +50,7 @@ select::-ms-expand {display: none;}
 
 /************ paging *****************/
 .paging{text-align:center;}
-.paging a{display:inline-block;width:26px;height:26px;line-height:27px;color:#767676;font-size:13px;border:1px solid #dadada;}
+.paging a{display:inline-block;width:26px;height:26px;line-height:27px;color:#767676;font-size:13px;margin:0 2px;border:1px solid #dadada;}
 .paging a:hover, .paging a.on{background:#c3251d;border-color:#c3251d;color:#fff;}
 .paging a.prev1{margin-right:6px;}
 .paging a.next1{margin-left:6px;}

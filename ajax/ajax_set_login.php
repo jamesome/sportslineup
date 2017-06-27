@@ -15,6 +15,7 @@
 	require_once $root_path."/lib/common_db.inc";
 
 	if ($_POST['userid']) {
+
 		$uid = $userid;
 		$upw = $userpw;
 		unset($userid);
@@ -25,11 +26,13 @@
 		} catch (Exception $ex) {
 			print "db connect error:".$ex->getMessage().', code:'.$ex->getCode();
 		}
+
 		if (!isset($ex)) {
 			$arr = array();
 			$arr['_user_id'] = $uid;
 			$arr['_user_pass'] = get_pass($upw);
 			$arr['_ip'] = $com['myip'];
+            $arr['_is_mobile'] = get_isMobile($_SERVER['HTTP_USER_AGENT']);
 			$arr['_user_agent'] = $_SERVER['HTTP_USER_AGENT'];
 
 			$row = call_procedure_data("set_member_login", $arr);

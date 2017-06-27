@@ -1,5 +1,5 @@
             <div id="main_footer">
-                <ul class="sitemap">
+                <!-- <ul class="sitemap">
                     <li>
                         <dl>
                             <dt><a href="#">Regions</a></dt>
@@ -64,7 +64,10 @@
                             <dd><a href="#">Sailing</a></dd>
                         </dl>
                     </li>
-                </ul>
+                </ul> -->
 
                 <p class="copyright">&copy; 2017 Cable News Network. Turner Broadcasting System, Inc. All Rights Reserved.</p>
             </div><!-- /main_footer-->
+        </div>
+    </body>
+</html>

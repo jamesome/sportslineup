@@ -37,13 +37,33 @@
                 },
                 function(data) {
                     if (data == 'ok') {
-                        common.commmon_alert('Signed in', '', 'success');
+                        swal({
+                            title: 'Signed in',
+                            text: '',
+                            type: 'success'
+                        }).then(
+                            function() {
+                                top.location.replace("/");
+                            }
+                        )
                     } else if (data == 'uid') {
                         common.commmon_alert('Please Check your ID', '', 'info');
                     } else if (data == 'upass') {
                         common.commmon_alert('PASSWORD ERROR', 'Please Check your PW', 'info');
                     }
                 });
+        },
+        logout: function() {
+
+            $.post("/ajax/ajax_set_logout.php", {
+                    'mode': 'logout'
+                },
+                function(data) {
+                    if (data == 'ok') {
+                        top.location.replace("/");
+                    }
+                }
+            );
         }
     };
 })(window);
@@ -51,6 +71,10 @@
 $(function() {
     $('#login').click(function() {
         signIn.login();
+    });
+
+    $("#logout").click(function() {
+        signIn.logout();
     });
 
     $("#login_pw").keyup(function(e) {
