@@ -49,7 +49,7 @@
                                     </colgroup>
                                     <thead>
                                         <tr>
-                                            <th><input type="checkbox" class="check_box" id="all_check" /></th>
+                                            <th><input type="checkbox" onClick="adminList.checkBox();" class="selectall" /></th>
                                             <th>News Title</th>
                                             <th>Published Date</th>
                                             <th>Status</th>
@@ -58,22 +58,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <!-- <tr>
-                                            <td><input type="checkbox" class="check_box" /></td>
-                                            <td class="title"><a href="/admin/board_view.php"></a></td>
-                                            <td class="date">2017-02-13 18:25</td>
-                                            <td>Published</td>
-                                            <td>105</td>
-                                            <td><button class="table_btn">Delete</button></td>
-                                        </tr>
-                                        <tr>
-                                            <td><input type="checkbox" class="check_box" /></td>
-                                            <td class="title"><a href="/admin/board_view.php">blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</a></td>
-                                            <td class="date">2017-02-13 18:25</td>
-                                            <td>Published</td>
-                                            <td>105</td>
-                                            <td><button class="table_btn">Delete</button></td>
-                                        </tr> -->
+                                      
                                     </tbody>
                                 </table>
                             </div>
@@ -81,36 +66,21 @@
                             <div class="list_btns">
                                 <button class="btn_delete">Delete selected</button>
                                 <div class="paging">
-                                    <a href="#" class="prev2"><img src="/images/admin/prev2.png" alt="" /></a>
-                                    <a href="#" class="prev1"><img src="/images/admin/prev1.png" alt="" /></a>
-                                    <a href="#" class="btn_page on">1</a>
-                                    <a href="#" class="btn_page">2</a>
-                                    <a href="#" class="btn_page">3</a>
-                                    <a href="#" class="btn_page">4</a>
-                                    <a href="#" class="btn_page">5</a>
-                                    <a href="#" class="next1"><img src="/images/admin/next1.png" alt="" /></a>
-                                    <a href="#" class="next2"><img src="/images/admin/next2.png" alt="" /></a>
+
                                 </div>
                                 <a href="/admin/board_write.php" class="btn_write">Write</a>
                             </div>
                         </div>
                     </div><!-- /main_con -->
-
-                    <script>
-                        var g_page_max = '10';
-                        var $check_box = $('.check_box');
-
-                        $('#all_check').click(function() {
-                            if ($(this).prop('checked')) {
-                                $check_box.prop('checked', true);
-                            } else {
-                                 $check_box.prop('checked', false);
-                            }
-                        });
-                    </script>
 <? include "inc/footer.php"; ?>
 <? include "../inc/commonJsFile.php"; ?>
+        <script type="text/javascript" src="../js/admin.js"></script>
         <script type="text/javascript" src="../js/adminList.js"></script>
         <script type="text/javascript" src="../js/paging.js"></script>
+        <script>
+            var g_page_max = '10';
+            var news_type = "<?= $_GET['type'] ?>";
+            var $check_box = $('.check_box');
+        </script>
     </body>
 </html>
