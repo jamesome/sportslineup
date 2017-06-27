@@ -6,7 +6,6 @@
 
     context.adminList = {
         get_admin_list: function(page_no, list_max) {
-
             var srch_kind = '';
             var srch_text = '';
             g_page_no = page_no;
