@@ -5,8 +5,12 @@
     }
 
     context.adminList = {
-        get_admin_list: function(page_no, list_max) {
+        get_admin_list: function(page_no, list_max) { <<
+            << << < HEAD
 
+                ===
+                === = >>>
+                >>> > f87a44661a854c1d6949c2165028ccb7871d88fc
             var srch_kind = '';
             var srch_text = '';
             g_page_no = page_no;

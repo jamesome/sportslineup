@@ -14,7 +14,7 @@
 #main_header .logo{padding:24px 0 29px;text-align:center;}
 #gnb{border-top:1px solid #eeeeee;}
 #gnb ul{overflow:hidden;width:1080px;margin:0 auto;}
-#gnb ul li{float:left;padding:20px 0;margin-right:72px;}
+#gnb ul li{float:left;padding:20px 0;margin-right:152px;}
 #gnb ul li.last{margin-right:0;}
 #gnb ul li a{font-size:16px;}
 #gnb ul li.on a, #gnb ul li a:hover{color:#c3251d;}
