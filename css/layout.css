@@ -32,6 +32,13 @@
 #login_box .login_input input{width:100%;height:52px;border:none;padding:0 15px;box-sizing:border-box;}
 #login_box a{display:inline-block;margin:7px 0 18px;}
 
+#logged_box{height:358px;padding:50px 30px 0;text-align:center;background:#333333;margin-bottom:30px;color:#fff;font-size:16px;}
+#logged_box img{display:block;}
+#logged_box .admin_icon{margin:0 auto 25px;}
+#logged_box h2{font-size:20px;}
+#logged_box p{margin:15px 0 35px;}
+#logged_box #btn_admin{display:block;margin-bottom:15px;}
+
 #game_zone{height:510px;margin-bottom:30px;background:#ccc;}
 #right_banner{text-align:center;}
 
