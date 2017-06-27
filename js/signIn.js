@@ -26,24 +26,24 @@
                 return false;
             }
 
-            if (retn) {
-                common.commmon_alert('Oops..!', 'You can not Login', 'error');
-                return false;
-            }
+            // if (retn) {
+            //     common.commmon_alert('Oops..!', 'You can not Login', 'error');
+            //     return false;
+            // }
 
-            // $.post("/ajax/ajax_set_login.php", {
-            //         'userid': login_id,
-            //         'userpw': login_pw
-            //     },
-            //     function(data) {
-            //         if (data == 'ok') {
-            //             common.commmon_alert('Signed in', '', 'success');
-            //         } else if (data == 'uid') {
-            //             common.commmon_alert('Please Check your ID', '', 'info');
-            //         } else if (data == 'upass') {
-            //             common.commmon_alert('Please Check your PW', '', 'info');
-            //         }
-            //     });
+            $.post("/ajax/ajax_set_login.php", {
+                    'userid': login_id,
+                    'userpw': login_pw
+                },
+                function(data) {
+                    if (data == 'ok') {
+                        common.commmon_alert('Signed in', '', 'success');
+                    } else if (data == 'uid') {
+                        common.commmon_alert('Please Check your ID', '', 'info');
+                    } else if (data == 'upass') {
+                        common.commmon_alert('PASSWORD ERROR', 'Please Check your PW', 'info');
+                    }
+                });
         }
     };
 })(window);
@@ -51,5 +51,11 @@
 $(function() {
     $('#login').click(function() {
         signIn.login();
+    });
+
+    $("#login_pw").keyup(function(e) {
+        if (e.keyCode == 13 || e.charCode == 13) {
+            $("#login").click();
+        }
     });
 });

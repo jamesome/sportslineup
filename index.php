@@ -54,9 +54,9 @@
                             <li><a href="#hockey">Hockey</a></li>
                         </ul>
 
-                        <div id="all" class="news_tab_con">
-                            <ul>
-                                <li>
+                        <div id="all" class="news_tab_con news_free">
+                            <ul id="all">
+                                <!-- <li>
                                     <a href="sub/view.php">
                                         <img src="/images/testimg.png" alt="" />
                                         <div class="content">
@@ -69,9 +69,14 @@
                                             </div>
                                         </div>
                                     </a>
-                                </li>
+                                </li> -->
+                            </ul>
+                        </div><!-- /all -->
+
+                        <div id="soccer" class="news_tab_con news_photo">
+                            <ul id="soccer">
                                 <li>
-                                    <a href="sub/view.php">
+                                    <!-- <a href="sub/view.php">
                                         <img src="/images/testimg.png" alt="" />
                                         <div class="content">
                                             <h3>The teen with the future of US soccer on...</h3>
@@ -82,67 +87,14 @@
                                                 <span class="date">Auguest 14, 2017</span>
                                             </div>
                                         </div>
-                                    </a>
+                                    </a> -->
                                 </li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Soccer</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
-                            </ul>
-                        </div><!-- /all -->
-
-                        <div id="soccer" class="news_tab_con">
-                            <ul id="soccer">
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Soccer</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Soccer</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Soccer</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
                             </ul>
                         </div><!-- /soccer -->
 
-                        <div id="baseball" class="news_tab_con">
+                        <div id="baseball" class="news_tab_con news_free">
                             <ul>
-                                <li><a href="sub/view.php">
+                                <!-- <li><a href="sub/view.php">
                                     <img src="/images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
@@ -153,37 +105,13 @@
                                             <span class="date">Auguest 14, 2017</span>
                                         </div>
                                     </div>
-                                </a></li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Baseball</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Baseball</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
+                                </a></li> -->
                             </ul>
                         </div><!-- /baseball -->
 
-                        <div id="basketball" class="news_tab_con">
+                        <div id="basketball" class="news_tab_con news_photo">
                             <ul>
-                                <li><a href="sub/view.php">
+                                <!-- <li><a href="sub/view.php">
                                     <img src="/images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
@@ -194,37 +122,13 @@
                                             <span class="date">Auguest 14, 2017</span>
                                         </div>
                                     </div>
-                                </a></li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Basketball</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Basketball</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
+                                </a></li> -->
                             </ul>
                         </div><!-- /basketball -->
 
-                        <div id="volleyball" class="news_tab_con">
+                        <div id="volleyball" class="news_tab_con news_poker">
                             <ul>
-                                <li><a href="sub/view.php">
+                                <!-- <li><a href="sub/view.php">
                                     <img src="/images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
@@ -235,37 +139,13 @@
                                             <span class="date">Auguest 14, 2017</span>
                                         </div>
                                     </div>
-                                </a></li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Volleyball</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Volleyball</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
+                                </a></li> -->
                             </ul>
                         </div><!-- /volleyball -->
 
-                        <div id="hockey" class="news_tab_con">
+                        <div id="hockey" class="news_tab_con news_tournament">
                             <ul>
-                                <li><a href="sub/view.php">
+                                <!-- <li><a href="sub/view.php">
                                     <img src="/images/testimg.png" alt="" />
                                     <div class="content">
                                         <h3>The teen with the future of US soccer on...</h3>
@@ -276,31 +156,7 @@
                                             <span class="date">Auguest 14, 2017</span>
                                         </div>
                                     </div>
-                                </a></li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Hockey</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
-                                <li><a href="sub/view.php">
-                                    <img src="/images/testimg.png" alt="" />
-                                    <div class="content">
-                                        <h3>The teen with the future of US soccer on...</h3>
-                                        <p>To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Pulisic is US soccer's hope would be something of an understatement. To say Christian Puli... </p>
-                                        <div>
-                                            <strong class="c_red category">Hockey</strong>
-                                            <span class="bar"></span>
-                                            <span class="date">Auguest 14, 2017</span>
-                                        </div>
-                                    </div>
-                                </a></li>
+                                </a></li> -->
                             </ul>
                         </div><!-- /hockey -->
                     </div>

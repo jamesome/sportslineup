@@ -43,16 +43,8 @@
         global $com, $dbtable_from_type, $thumb_size;
 
         $result = $arr = array();
-		$board_max = 1;
+		$board_max = 3;
 		$call_fn_name = 'get_board_list_notnotice';
-
-		// $arr['_table'] = $dbtable_from_type[$news_type];
-		// $arr['_type'] = $news_type;
-		// $arr['_subtype'] = "";
-		// $arr['_skip_no'] = "0";
-		// $arr['_list_max'] = $board_max;
-        //
-    	// $result = call_procedure_list($call_fn_name, $arr);
 
         $arr['_table'] = $dbtable_from_type[$news_type];
 		$arr['_type'] = $news_type;
@@ -67,7 +59,6 @@
     		$result[$k]['subject'] = com_strcut(get_db_data($v['subject']), '46', '..');
         	$result[$k]['view_contents'] = strip_tags($rows[$k]['contents']);
         	$result[$k]['reg_date'] = strip_tags($rows[$k]['contents']);
-            //$result[$k]['type'] = strip_tags($rows[$k]['contents']);
 			unset($result[$k]['contents']);
 		}
 
