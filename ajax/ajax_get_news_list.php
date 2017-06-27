@@ -26,9 +26,9 @@
 			$arr = array();
 			$arr['_table'] = $dbtable_from_type[$type];
 			$arr['_type'] = $type;
-			$arr['_subtype'] = '';//$bstype;
-			$arr['_skip_no'] = '0';//$skip_no;
-			$arr['_list_max'] = '15';//$list_max;
+			$arr['_subtype'] = $bstype;
+			$arr['_skip_no'] = $skip_no;
+			$arr['_list_max'] = $list_max;
 
 			if ($srch_kind && $srch_text) {
 				$arr['_srch_kind'] = $srch_kind;

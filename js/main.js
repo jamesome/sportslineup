@@ -11,10 +11,11 @@
                     if (data) {
                         main.set_main_news_list(data);
                     }
-                });
+                }, 'json'
+            );
         },
         set_main_news_list: function(data) {
-            var data = JSON.parse(data);
+
             var parent = $(".main_news_tab");
             var data_key = []; // ie8 Object.keys(data);
 

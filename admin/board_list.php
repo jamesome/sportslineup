@@ -58,9 +58,9 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
+                                        <!-- <tr>
                                             <td><input type="checkbox" class="check_box" /></td>
-                                            <td class="title"><a href="/admin/board_view.php">blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah</a></td>
+                                            <td class="title"><a href="/admin/board_view.php"></a></td>
                                             <td class="date">2017-02-13 18:25</td>
                                             <td>Published</td>
                                             <td>105</td>
@@ -73,7 +73,7 @@
                                             <td>Published</td>
                                             <td>105</td>
                                             <td><button class="table_btn">Delete</button></td>
-                                        </tr>
+                                        </tr> -->
                                     </tbody>
                                 </table>
                             </div>
@@ -97,6 +97,7 @@
                     </div><!-- /main_con -->
 
                     <script>
+                        var g_page_max = '10';
                         var $check_box = $('.check_box');
 
                         $('#all_check').click(function() {
