@@ -1,5 +1,5 @@
 <? include "inc/head_set.php"; ?>
-<? include "../inc/jquery_load.php"; ?>
+        <? include "../inc/jquery_load.php"; ?>
     </head>
     <body>
         <? include "inc/header.php"; ?>
@@ -15,7 +15,7 @@
                             </div>
                         </div><!-- /con_tit -->
 
-                        <div class="list">
+                        <div class="list admin_list">
                             <div class="search_wrap">
                                 <div class="left_con">
                                     <select>
@@ -77,7 +77,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                            
+
                             <div class="list_btns">
                                 <button class="btn_delete">Delete selected</button>
                                 <div class="paging">
@@ -98,13 +98,18 @@
 
                     <script>
                         var $check_box = $('.check_box');
-                        
-                        $('#all_check').click(function(){
-                            if($(this).prop('checked')){
+
+                        $('#all_check').click(function() {
+                            if ($(this).prop('checked')) {
                                 $check_box.prop('checked', true);
-                            }else{
+                            } else {
                                  $check_box.prop('checked', false);
                             }
                         });
                     </script>
 <? include "inc/footer.php"; ?>
+<? include "../inc/commonJsFile.php"; ?>
+        <script type="text/javascript" src="../js/adminList.js"></script>
+        <script type="text/javascript" src="../js/paging.js"></script>
+    </body>
+</html>

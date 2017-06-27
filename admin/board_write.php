@@ -97,3 +97,7 @@
                         </div>
                     </div><!-- /main_con -->
 <? include "inc/footer.php"; ?>
+<? include "../inc/commonJsFile.php"; ?>
+        <script type="text/javascript" src="../js/adminWrite.js"></script>
+    </body>
+</html>
