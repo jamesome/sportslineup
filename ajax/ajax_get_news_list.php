@@ -1,9 +1,9 @@
 <?php
-/*
+/**
  * news list
  * post only
- * requset: type:post, btype, bstype, srch_kind, srch_text, skip_no, list_max, g_mobile
- * 			srch_kind > subject, content, subcontent, nickname
+ * requset: type:post, btype, bstype, srch_kind, srch_text, skip_no, list_max
+ * 			srch_kind > subject, content, sub+content
  * response: type:json, data
  *
  */
