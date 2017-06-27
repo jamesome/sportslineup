@@ -23,7 +23,7 @@
                                 </colgroup>
                                 <tbody>
                                     <tr>
-                                        <td>Title</td>
+                                        <th>Title</th>
                                         <td><input type="text" class="write_input" /></td>
                                     </tr>
                                     <tr>
