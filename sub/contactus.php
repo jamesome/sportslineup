@@ -1,4 +1,5 @@
 <? include "../inc/head_set.php"; ?>
+        <? include "../inc/jquery_load.php"; ?>
     </head>
     <body>
 <? include "../inc/header.php"; ?>
@@ -28,12 +29,14 @@
                         </ul>
 
                         <div class="btns">
-                            <button type="submit" class="btn"><img src="/images/btn_submit_comment.png" alt="Submit Comment" /></button>
+                            <button type="button" id="contact_us" class="btn"><img src="/images/btn_submit_comment.png" alt="Submit Comment" /></button>
                         </div>
                     </div>
                 </div><!-- /container -->
             </div><!-- /container_wrap -->
 <? include "../inc/footer.php"; ?>
         </div>
+<? include "../inc/commonJsFile.php"; ?>
+        <script type="text/javascript" src="../js/contactUs.js"></script>
     </body>
 </html>

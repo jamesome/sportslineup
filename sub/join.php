@@ -29,10 +29,12 @@
                     <li>
                         <label><strong>Mobile Number</strong><span>*</span></label>
                         <p class="input_box">
-                            <select>
-                                <option value="87">+87</option>
-                                <option value="88">+88</option>
-                                <option value="89">+89</option>
+                            <select id="set_area">
+                                <option value="1">+1</option>
+                                <option value="61">+61</option>
+                                <option value="44">+44</option>
+                                <option value="81">+81</option>
+                                <option value="86">+86</option>
                             </select>
                             <input type="text" class="input join_mobile" style="width:172px;" />
                             <button type="button" class="box_btn">Verify</button>
@@ -69,11 +71,14 @@
                             </select>
                             <select id="set_year">
                                 <option value="" selected="selected">Year</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
                                 <option value="2017">2017</option>
-                                <option value="2015">2015</option>
-                                <option value="1988">1988</option>
-                                <option value="1980">1980</option>
-                                <option value="1979">1979</option>
                             </select>
                         </p>
                     </li>

@@ -13,11 +13,11 @@
             var retn = true;
 
             if (retn && login_id == '') {
-                common.commmon_alert('Please Enter your ID', '', 'error');
+                common.commmon_alert('Please Enter your ID', '', 'warning');
                 retn = false;
             }
             if (retn && login_pw == '') {
-                common.commmon_alert('Please Enter your PW', '', 'error');
+                common.commmon_alert('Please Enter your PW', '', 'warning');
                 retn = false;
             }
 
@@ -25,6 +25,11 @@
                 $("#login").on('click', signIn.login);
                 return false;
             }
+
+            // if (retn) {
+            //     common.commmon_alert('Oops..!', 'You can not Login', 'error');
+            //     return false;
+            // }
 
             $.post("/ajax/ajax_set_login.php", {
                     'userid': login_id,
@@ -36,7 +41,7 @@
                     } else if (data == 'uid') {
                         common.commmon_alert('Please Check your ID', '', 'info');
                     } else if (data == 'upass') {
-                        common.commmon_alert('Please Check your PW', '', 'info');
+                        common.commmon_alert('PASSWORD ERROR', 'Please Check your PW', 'info');
                     }
                 });
         }
@@ -46,5 +51,11 @@
 $(function() {
     $('#login').click(function() {
         signIn.login();
+    });
+
+    $("#login_pw").keyup(function(e) {
+        if (e.keyCode == 13 || e.charCode == 13) {
+            $("#login").click();
+        }
     });
 });

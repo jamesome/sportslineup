@@ -33,6 +33,6 @@
 <? include "../inc/footer.php"; ?>
         </div>
 <? include "../inc/commonJsFile.php"; ?>
-        <script type="text/javascript" src="../js/board_view.js"></script>
+        <script type="text/javascript" src="../js/newsView.js"></script>
     </body>
 </html>

@@ -12,7 +12,7 @@
         protected $DBPass;
         protected $Database;
 
-        function DB_Con()
+        function __construct()
         {
             global $com;
 
@@ -35,10 +35,11 @@
 
         function host_dev()
         {
-            $this->Host = ''; //192.168.0.152
-            $this->DBUser = '';
-            $this->DBPass = '';
-            $this->Database = '';
+            $this->Host = 'hjj.score888.com:5903';
+            // $this->Host = '192.168.0.152';
+            $this->DBUser = 'hol1000';
+            $this->DBPass = 'ghfcjselqldb';
+            $this->Database = '_hol_test';
         }
 
         function Connect()
