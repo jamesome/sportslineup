@@ -25,49 +25,29 @@
 		} catch (Exception $ex) {
 			print "db connect error:".$ex->getMessage().', code:'.$ex->getCode();
 		}
-
-		if (!isset($ex))
-        {
+		if (!isset($ex)) {
 			$arr = array();
+			$arr['_user_id'] = $uid;
+			$arr['_user_pass'] = get_pass($upw);
 			$arr['_ip'] = $com['myip'];
+			$arr['_user_agent'] = $_SERVER['HTTP_USER_AGENT'];
 
-			$row = call_procedure_data("get_ip_block_time", $arr);
+			$row = call_procedure_data("set_member_login", $arr);
 
-			if ($row['result'] > 0) {
-				echo 'ipblock||'.$com['myip'];
-			} else {
-				$arr = array();
-				$arr['_user_id'] = $uid;
-				$arr['_user_pass'] = get_pass($upw);
-				$arr['_ip'] = $com['myip'];
-				$arr['_is_mobile'] = get_isMobile($_SERVER['HTTP_USER_AGENT']);
-				$arr['_user_agent'] = $_SERVER['HTTP_USER_AGENT'];
+			if ($row['result'] == -1) {
+				echo 'error';
+			} else if ($row['result'] == -2) {
+				echo 'uid';
+			} else if ($row['result'] == -4) {
+				echo 'upass';
+			} else if ($row['idx'] > 0) {
 
-				$row = call_procedure_data("set_member_login", $arr);
+				set_session("ses_user_idx", $row['idx']);
+				set_session("ses_user_id", $row['memid']);
 
-				if ($row['result'] == -1) {
-					echo 'error';
-				} else if ($row['result'] == -2) {
-					echo 'uid';
-				} else if ($row['result'] == -4) {
-					echo 'upass';
-				} else if ($row['prison'] > 0) {
-
-					$arr = array();
-					$arr['_type'] = 'nickname';
-					$arr['_member_idx'] = $row['idx'];
-					$row = call_procedure_data("get_member_sel_from", $arr);
-					echo 'prison||'.str_replace(' ','_', $row['prison_date']);
-				} else if ($row['idx'] > 0) {
-
-					set_session("ses_user_idx", $row['idx']);
-					set_session("ses_user_id", $row['memid']);
-
-					echo 'ok';
-				}
+				echo 'ok';
 			}
 		}
-
 	}
 
 ?>
