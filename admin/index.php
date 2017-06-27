@@ -1,5 +1,4 @@
 <?php
-
 	// $root_path = $_SERVER['DOCUMENT_ROOT'];
 	// require_once $root_path."/lib/common.inc";
     //
@@ -10,5 +9,4 @@
     // } else {
     //     alert_href("관리자 권한이 없습니다.","/");
     // }
-
 ?>
